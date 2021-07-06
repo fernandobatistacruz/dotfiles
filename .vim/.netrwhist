@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =6
+let g:netrw_dirhist_6='/usr/home/fernando/flutter/bin/cache/dart-sdk'
+let g:netrw_dirhist_5='/usr/share/examples/csh'
+let g:netrw_dirhist_4='/usr/local/etc/X11/xinit'
+let g:netrw_dirhist_3='/usr/home/fernando/suckless/dwm'
+let g:netrw_dirhist_2='/usr/home/fernando/suckless/dmenu'
+let g:netrw_dirhist_1='/usr/local/etc/X11/xinit'
+let g:netrw_dirhist_0='/usr/home/fernando/suckless/dwm'
+let g:netrw_dirhist_9='/usr/home/fernando/.config/gtk-3.0'
+let g:netrw_dirhist_8='/usr/home/fernando/st'
+let g:netrw_dirhist_7='/usr/home/fernando'

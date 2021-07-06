@@ -1,0 +1,15 @@
+Xft.dpi: 96
+Xft.antialias: 1
+Xft.hinting: 1
+Xft.rgba: rgb
+Xft.autohint: 1
+Xft.hintstyle: hintfull
+Xft.lcdfilter: lcdfilter
+
+xterm*renderFont: true
+xterm*faceName: xft:Liberation Mono
+xterm*faceSize: 10
+xterm*urf8: 2
+xterm*foreground: #f8f8f2
+xterm*background: #000000
+xterm*cursorColor: #f8f8f2

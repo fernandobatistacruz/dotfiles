@@ -1,0 +1,4 @@
+feh -B #222222 \
+--geometry 800x450 \
+--scale-down \
+--auto-zoom
