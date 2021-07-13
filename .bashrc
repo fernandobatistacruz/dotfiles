@@ -8,7 +8,8 @@
 #Corrigindo aplicativos Java com comportamento inadequado
 #export _JAVA_AWT_WM_NONREPARENTING=1
 
-export PATH="$PATH:`pwd`/Dev/flutter/bin"
+export _JAVA_AWT_WM_NONREPARENTING=1
+export PATH="$PATH:`pwd`/dev/flutter/bin"
 
 #color_prompt=yes
 
