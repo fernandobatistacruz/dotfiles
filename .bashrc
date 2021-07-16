@@ -5,9 +5,6 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-#Corrigindo aplicativos Java com comportamento inadequado
-#export _JAVA_AWT_WM_NONREPARENTING=1
-
 export _JAVA_AWT_WM_NONREPARENTING=1
 export PATH="$PATH:`pwd`/dev/flutter/bin"
 
