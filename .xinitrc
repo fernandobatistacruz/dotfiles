@@ -4,7 +4,7 @@
 slstatus &
 
 #Transparencia
-picom -f &
+picom &
 
 #Configuração do teclado
 setxkbmap -model thinkpad60 -layout br &
