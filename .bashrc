@@ -5,11 +5,12 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
+export QT_AUTO_SCREEN_SCALE_FACTOR=1
 export QT_QPA_PLATFORMTHEME=qt5ct
 export _JAVA_AWT_WM_NONREPARENTING=1
 export PATH="$PATH:`pwd`/dev/flutter/bin"
 
-#color_prompt=yes
+color_prompt=yes
 
 # some more ls aliases
 alias x='startx'
