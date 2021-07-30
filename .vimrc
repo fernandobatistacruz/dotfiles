@@ -20,7 +20,10 @@ set smartcase
 set incsearch
 
 " Set colorscheme
-colorscheme ron
+colorscheme elflord
+
+let g:airline_theme='desertink'
+
 
 " Better Scrolling
 set scrolloff=8
