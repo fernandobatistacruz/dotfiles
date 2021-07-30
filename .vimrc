@@ -22,6 +22,8 @@ set incsearch
 " Set colorscheme
 colorscheme elflord
 
+highlight LineNr term=bold cterm=NONE ctermfg=DarkGrey ctermbg=NONE gui=NONE guifg=DarkGrey guibg=NONE
+
 let g:airline_theme='desertink'
 
 
@@ -36,7 +38,8 @@ set encoding=utf-8
 set nohlsearch
 
 " Tab settings
-set tabstop=4 softtabstop=4
+set tabstop=4 
+set softtabstop=4
 set shiftwidth=4
 set expandtab
 set smartindent
