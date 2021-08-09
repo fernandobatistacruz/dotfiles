@@ -1,0 +1,13 @@
+[user]
+	email = fernandobatistacruz@gmail.com
+	name = fernandobatistacruz
+[color]
+    branch = auto
+    diff = auto
+    status = auto
+    ui = auto
+
+[diff]
+    tool = vimdiff
+[core]
+    editor = vim
