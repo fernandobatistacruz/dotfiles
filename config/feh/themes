@@ -1,4 +1,5 @@
 feh -B #222222 \
+--menu-font "yudit/13"\
 --geometry 800x450 \
 --scale-down \
 --auto-zoom
