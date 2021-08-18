@@ -39,13 +39,18 @@ setxkbmap -model thinkpad60 -layout br &
 picom &
 
 # Papel de parede
-feh --bg-scale ~/imagens/11.jpg &
+feh --bg-scale ~/imagens/4.jpg &
 
 # Barra de status
 slstatus &
 
 # Screen lock
 # xautolock -time 30 -locker slock &
+
+# Loop
+while true; do
+    dwm >/dev/null 2>&1
+done
 
 # Execute DWM
 exec dwm
