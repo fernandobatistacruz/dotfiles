@@ -29,10 +29,3 @@ set encoding=utf-8
 
 " Highlight matching search patterns but turn off after enter is pressed
 set nohlsearch
-
-" Tab settings
-set tabstop=4 
-set softtabstop=4
-set shiftwidth=4
-set expandtab
-set smartindent
