@@ -1,11 +1,14 @@
 " Set colorscheme
 colorscheme elflord
 
+" Normal mode
+let &t_EI .= "\x1b[\x31 q"
+
 " Insert mode
 let &t_SI .= "\x1b[\x35 q"
 
-" Normal mode
-let &t_EI .= "\x1b[\x31 q"
+" Replace mode
+let &t_SR .= "\x1b[\x33 q"
 
 set laststatus=2
 
