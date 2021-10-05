@@ -32,7 +32,7 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
  unset f
 fi
 
-# Keyboard Layout
+# Teclado Layout
 setxkbmap -model thinkpad60 -layout br &
 
 # Compositor
@@ -47,7 +47,7 @@ slstatus &
 # Screen lock
 # xautolock -time 30 -locker slock &
 
-# Loop
+# Reiniciar DWM sem fechar as janelas do X
 while true; do
     dwm >/dev/null 2>&1
 done
