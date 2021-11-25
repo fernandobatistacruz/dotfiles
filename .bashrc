@@ -22,5 +22,6 @@ alias la='ls -A'
 alias l='ls -CF'
 alias ip='ip --color=auto'
 alias grep='grep --color=auto'
+alias wifi='nmcli device wifi list'
 
 PS1='\[\033[01;38;2;0;121;170m\]\w \$ \[\033[00m\]'
