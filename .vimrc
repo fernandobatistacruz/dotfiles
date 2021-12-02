@@ -14,7 +14,7 @@ let &t_SR .= "\x1b[\x33 q"
 syntax on
 
 set number
-highlight LineNr term=NONE cterm=NONE ctermfg=DarkGrey ctermbg=NONE gui=NONE guifg=DarkGrey guibg=NONE
+highlight LineNr term=NONE cterm=NONE ctermfg=DarkGrey ctermbg=NONE
 
 set ignorecase
 set smartcase
