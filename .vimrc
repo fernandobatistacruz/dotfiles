@@ -1,3 +1,5 @@
+set tabstop=4
+
 colorscheme elflord
 
 "Normal mode
@@ -13,8 +15,8 @@ let &t_SR .= "\x1b[\x33 q"
 
 syntax on
 
-set number
-highlight LineNr term=NONE cterm=NONE ctermfg=DarkGrey ctermbg=NONE
+"set number
+"highlight LineNr term=NONE cterm=NONE ctermfg=DarkGrey ctermbg=NONE
 
 set ignorecase
 set smartcase
