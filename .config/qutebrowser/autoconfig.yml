@@ -22,6 +22,8 @@ settings:
     global: 10.2pt
   fonts.web.family.standard:
     global: null
+  fonts.web.size.default:
+    global: 17
   qt.highdpi:
     global: false
   statusbar.show:
@@ -36,12 +38,14 @@ settings:
     global: 1
   tabs.padding:
     global:
-      bottom: 2
-      left: 0
-      right: 0
-      top: 2
+      bottom: 4
+      left: 5
+      right: 5
+      top: 4
   tabs.show:
-    global: never
+    global: multiple
+  tabs.title.format:
+    global: '{current_title}'
   url.default_page:
     global: https://duckduckgo.com/
   url.start_pages:

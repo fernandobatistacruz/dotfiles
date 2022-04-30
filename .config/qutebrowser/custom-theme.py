@@ -7,22 +7,18 @@
 # base16 colors but with variable names that 
 # reflect what the color is mainly used for
 
-bg_default = "#111111"          # main shade darkest
-bg_lighter = "#111111"
-bg_selection = "#555555"
-# "#545862"
-fg_disabled = "#eeeeee"
-fg_default = "#ffffff"
-# "#b6bdca"
-bg_lightest = "#eeeeee"         # main shade lightest
-fg_error = "#ff0000"            # red
-# "#d19a66"                     # orange
-bg_hint = "#00FFFF"             # yellow
-fg_matched_text = "#00FFFF"     # green
-bg_passthrough_mode = "#00FFFF" # teal
-bg_insert_mode = "#222222"      # blue
-bg_warning = "#005577"          # purple
-# "#be5046"                     # dark red
+bg_default =          "#444444"  # main shade darkest
+bg_lighter =          "#444444"
+bg_selection =        "#333333"
+fg_disabled =         "#eeeeee"
+fg_default =          "#ffffff"
+bg_lightest =         "#eeeeee"  # main shade lightest
+fg_error =            "#ff0000"  # red
+bg_hint =             "#00FFFF"  # yellow
+fg_matched_text =     "#00FFFF"  # green
+bg_passthrough_mode = "#00FFFF"  # teal
+bg_insert_mode =      "#222222"  # blue
+bg_warning =          "#005577"  # purple
 
 ############
 # SETTINGS #
