@@ -12,6 +12,8 @@ settings:
     - https://easylist.to/easylist/easyprivacy.txt
   content.blocking.enabled:
     global: true
+  content.headers.accept_language:
+    global: en-US,en;q=0.9
   content.register_protocol_handler:
     https://mail.google.com?extsrc=mailto&url=%25s: true
   downloads.location.directory:
@@ -23,9 +25,12 @@ settings:
   fonts.web.family.standard:
     global: null
   fonts.web.size.default:
-    global: 17
+    global: 18
   qt.highdpi:
     global: false
+  spellcheck.languages:
+    global:
+    - pt-BR
   statusbar.show:
     global: in-mode
   tabs.indicator.padding:
@@ -43,7 +48,7 @@ settings:
       right: 5
       top: 4
   tabs.show:
-    global: multiple
+    global: never
   tabs.title.format:
     global: '{current_title}'
   url.default_page:
