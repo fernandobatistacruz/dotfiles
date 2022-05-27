@@ -7,14 +7,14 @@
 # base16 colors but with variable names that 
 # reflect what the color is mainly used for
 
-bg_default =          "#222222"  # black
-bg_lighter =          "#222222"  # black
-bg_selection =        "#333333"  # cyan
-bg_lightest =         "#222222"  # black
+bg_default =          "#000000"  # black
+bg_lighter =          "#000000"  # black
+bg_selection =        "#005577"  # cyan
+bg_lightest =         "#000000"  # black
 bg_hint =             "#3399cc"  # blue
-bg_passthrough_mode = "#222222"  # black
-bg_insert_mode =      "#222222"  # black
-bg_warning =          "#222222"  # black
+bg_passthrough_mode = "#000000"  # black
+bg_insert_mode =      "#000000"  # black
+bg_warning =          "#000000"  # black
 
 fg_matched_text =     "#3399cc"  # blue
 fg_disabled =         "#eeeeee"  # semi white

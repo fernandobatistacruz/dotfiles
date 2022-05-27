@@ -33,8 +33,6 @@ settings:
     - pt-BR
   statusbar.show:
     global: in-mode
-  tabs.favicons.show:
-    global: always
   tabs.indicator.padding:
     global:
       bottom: 2
@@ -43,16 +41,14 @@ settings:
       top: 2
   tabs.indicator.width:
     global: 1
-  tabs.max_width:
-    global: 250
   tabs.padding:
     global:
-      bottom: 3
+      bottom: 4
       left: 5
       right: 5
-      top: 3
+      top: 4
   tabs.show:
-    global: always
+    global: never
   tabs.title.format:
     global: '{current_title}'
   url.default_page:

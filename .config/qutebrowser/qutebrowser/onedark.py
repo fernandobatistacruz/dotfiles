@@ -7,19 +7,22 @@
 # base16 colors but with variable names that 
 # reflect what the color is mainly used for
 
-bg_default =          "#222222"  # black
-bg_lighter =          "#222222"  # black
-bg_selection =        "#333333"  # cyan
-bg_lightest =         "#222222"  # black
-bg_hint =             "#3399cc"  # blue
-bg_passthrough_mode = "#222222"  # black
-bg_insert_mode =      "#222222"  # black
-bg_warning =          "#222222"  # black
-
-fg_matched_text =     "#3399cc"  # blue
-fg_disabled =         "#eeeeee"  # semi white
-fg_default =          "#ffffff"  # white
-fg_error =            "#ff0000"  # red
+bg_default = "#282c34"          # main shade darkest
+bg_lighter = "#353b45"
+bg_selection = "#3e4451"
+# "#545862"
+fg_disabled = "#565c64"
+fg_default = "#abb2bf"
+# "#b6bdca"
+bg_lightest = "#c8ccd4"         # main shade lightest
+fg_error = "#e06c75"            # red
+# "#d19a66"                     # orange
+bg_hint = "#e5c07b"             # yellow
+fg_matched_text = "#98c379"     # green
+bg_passthrough_mode = "#56b6c2" # teal
+bg_insert_mode = "#61afef"      # blue
+bg_warning = "#c678dd"          # purple
+# "#be5046"                     # dark red
 
 ############
 # SETTINGS #
@@ -127,7 +130,7 @@ c.colors.keyhint.suffix.fg = fg_default
 c.colors.keyhint.bg = bg_default
 
 # Foreground color of an error message.
-c.colors.messages.error.fg = fg_default
+c.colors.messages.error.fg = bg_default
 
 # Background color of an error message.
 c.colors.messages.error.bg = fg_error
@@ -136,7 +139,7 @@ c.colors.messages.error.bg = fg_error
 c.colors.messages.error.border = fg_error
 
 # Foreground color of a warning message.
-c.colors.messages.warning.fg = fg_error
+c.colors.messages.warning.fg = bg_default
 
 # Background color of a warning message.
 c.colors.messages.warning.bg = bg_warning
@@ -175,19 +178,19 @@ c.colors.statusbar.normal.fg = fg_matched_text
 c.colors.statusbar.normal.bg = bg_default
 
 # Foreground color of the statusbar in insert mode.
-c.colors.statusbar.insert.fg = fg_default
+c.colors.statusbar.insert.fg = bg_default
 
 # Background color of the statusbar in insert mode.
 c.colors.statusbar.insert.bg = bg_insert_mode
 
 # Foreground color of the statusbar in passthrough mode.
-c.colors.statusbar.passthrough.fg = fg_default
+c.colors.statusbar.passthrough.fg = bg_default
 
 # Background color of the statusbar in passthrough mode.
 c.colors.statusbar.passthrough.bg = bg_passthrough_mode
 
 # Foreground color of the statusbar in private browsing mode.
-c.colors.statusbar.private.fg = fg_default
+c.colors.statusbar.private.fg = bg_default
 
 # Background color of the statusbar in private browsing mode.
 c.colors.statusbar.private.bg = bg_lighter
@@ -205,7 +208,7 @@ c.colors.statusbar.command.private.fg = fg_default
 c.colors.statusbar.command.private.bg = bg_default
 
 # Foreground color of the statusbar in caret mode.
-c.colors.statusbar.caret.fg = fg_default
+c.colors.statusbar.caret.fg = bg_default
 
 # Background color of the statusbar in caret mode.
 c.colors.statusbar.caret.bg = bg_warning
