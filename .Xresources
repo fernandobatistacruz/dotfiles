@@ -5,8 +5,8 @@ Xft.autohint: 1
 Xft.hintstyle: hintfull
 Xft.lcdfilter: lcddefault
 
-!xterm*faceName: Droid Sans Mono
-!xterm*faceSize: 13
-!xterm*renderFont: true
-!xterm*background: black
-!xterm*foreground: white
+xterm*faceName: Droid Sans Mono
+xterm*faceSize: 13
+xterm*renderFont: true
+xterm*background: black
+xterm*foreground: white
