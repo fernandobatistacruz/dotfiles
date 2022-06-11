@@ -39,7 +39,7 @@ setxkbmap -model thinkpad60 -layout br &
 picom &
 
 # Papel de parede
-feh --bg-scale ~/imagens/4.jpg &
+feh --bg-scale ~/dotfiles/imagens/01.jpg &
 
 # Barra de status
 slstatus &
