@@ -1,5 +1,5 @@
 set tabstop=4
-colorscheme elflord
+"colorscheme elflord
 
 "Normal mode
 let &t_EI .= "\x1b[\x31 q"
