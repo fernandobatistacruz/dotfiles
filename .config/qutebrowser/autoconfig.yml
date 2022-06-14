@@ -6,6 +6,8 @@
 
 config_version: 2
 settings:
+  colors.webpage.darkmode.contrast:
+    global: 0.0
   content.blocking.adblock.lists:
     global:
     - https://easylist.to/easylist/easylist.txt
@@ -42,7 +44,7 @@ settings:
       right: 4
       top: 2
   tabs.indicator.width:
-    global: 1
+    global: 0
   tabs.max_width:
     global: 250
   tabs.padding:
@@ -52,7 +54,7 @@ settings:
       right: 5
       top: 3
   tabs.show:
-    global: always
+    global: never
   tabs.title.format:
     global: '{current_title}'
   url.default_page:
