@@ -1,9 +1,15 @@
-#
-# ~/.bashrc
-#
+# Lines configured by zsh-newuser-install
+HISTFILE=~/.config/.histfile
+HISTSIZE=1000
+SAVEHIST=1000
+bindkey -e
+# End of lines configured by zsh-newuser-install
+# The following lines were added by compinstall
+zstyle :compinstall filename '/home/fernando/.zshrc'
 
-# If not running interactively, don't do anything
-[[ $- != *i* ]] && return
+autoload -Uz compinit
+compinit
+# End of lines added by compinstall
 
 export CHROME_EXECUTABLE=chromium
 export TERM=st-256color
@@ -25,4 +31,4 @@ alias ip='ip --color=auto'
 alias grep='grep --color=auto'
 alias wifi='nmcli device wifi list'
 
-PS1='\[\033[01;38;2;0;121;170m\]\w \[\033[00m\]'
+PROMPT="%B%F{31}%~%f%b "
