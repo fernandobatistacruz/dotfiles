@@ -2,15 +2,16 @@
 HISTFILE=~/.config/.histfile
 HISTSIZE=1000
 SAVEHIST=1000
-bindkey -e
-# End of lines configured by zsh-newuser-install
+bindkey -v
+
 # The following lines were added by compinstall
 zstyle :compinstall filename '/home/fernando/.zshrc'
-
 autoload -Uz compinit
+zstyle ':completion:*' menu select
+zmodload zsh/complist
 compinit
-# End of lines added by compinstall
 
+# Exports
 export CHROME_EXECUTABLE=chromium
 export TERM=st-256color
 export EDITOR=vim
@@ -22,6 +23,7 @@ export QT_QPA_PLATFORMTHEME=qt5ct
 export _JAVA_AWT_WM_NONREPARENTING=1
 export MANPAGER="less --use-color -DE+R -Dd+C -Du+M"
 
+# Alias
 alias x='startx'
 alias ls='ls --color=auto'
 alias ll='ls -halF'
@@ -31,4 +33,11 @@ alias ip='ip --color=auto'
 alias grep='grep --color=auto'
 alias wifi='nmcli device wifi list'
 
+# Prompt
+#autoload -Uz promptinit
+#promptinit
 PROMPT="%B%F{31}%~%f%b "
+
+# Plugins
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
