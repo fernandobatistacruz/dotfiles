@@ -11,7 +11,7 @@ let &t_SR .= "\x1b[\x33 q"
 syntax on
 
 " Config tab
-set tabstop=4
+set tabstop=2
 
 " Line number and set color
 set number
