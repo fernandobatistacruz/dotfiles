@@ -10,8 +10,11 @@ let &t_SR .= "\x1b[\x33 q"
 " Active syntax 
 syntax on
 
-" Config tab
-set tabstop=2
+" Tab config
+set tabstop=4
+set softtabstop=0
+set shiftwidth=0
+set noexpandtab
 
 " Line number and set color
 set number
