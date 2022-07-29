@@ -34,9 +34,29 @@ alias l='ls -CF'
 alias ip='ip --color=auto'
 alias grep='grep --color=auto'
 alias wifi='nmcli device wifi list'
+alias calc='qalc'
+
+# Git status
+function __git_prompt_git() {
+	GIT_OPTIONAL_LOCKS=0 command git "$@"
+}
+
+function git_current_branch() {
+	local ref
+	ref=$(__git_prompt_git symbolic-ref --quiet HEAD 2> /dev/null)
+	local ret=$?
+	if [[ $ret != 0 ]]; then
+		[[ $ret == 128 ]] && return  # no git repo.
+		ref=$(__git_prompt_git rev-parse --short HEAD 2> /dev/null) || return
+	fi
+	echo "(${ref#refs/heads/}) "
+}
+
+setopt prompt_subst
+git=$'%B%F{10}$(git_current_branch)%f%b'
 
 # Prompt
-PROMPT="%B%F{31}%~%f%b "
+PROMPT="%B%F{31}%~%f%b $git"
 
 # Plugins
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
