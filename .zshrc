@@ -32,9 +32,8 @@ alias ll='ls -halF'
 alias la='ls -A'
 alias l='ls -CF'
 alias ip='ip --color=auto'
-alias grep='grep --color=auto'
+alias grep='grep --color=always'
 alias wifi='nmcli device wifi list'
-alias calc='qalc'
 
 # Git status
 function __git_prompt_git() {
