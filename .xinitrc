@@ -1,7 +1,7 @@
 #!/bin/sh
 
-userresources=$HOME/.Xresources
-usermodmap=$HOME/.Xmodmap
+userresources=$HOME/dotfiles/.Xresources
+usermodmap=$HOME/dotfiles/.Xmodmap
 sysresources=/etc/X11/xinit/.Xresources
 sysmodmap=/etc/X11/xinit/.Xmodmap
 
@@ -39,7 +39,7 @@ setxkbmap -model thinkpad60 -layout br &
 picom &
 
 # Papel de parede
-feh --bg-scale ~/dotfiles/imagens/01.jpg &
+feh --bg-scale ~/dotfiles/imagens/02.jpg &
 
 # Barra de status
 slstatus &
