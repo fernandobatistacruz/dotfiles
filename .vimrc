@@ -1,11 +1,11 @@
 " Normal mode
-let &t_EI .= "\x1b[\x31 q"
+let &t_EI .= "\x1b[\x33 q"
 
 " Insert mode
 let &t_SI .= "\x1b[\x35 q"
 
 " Replace mode
-let &t_SR .= "\x1b[\x33 q"
+let &t_SR .= "\x1b[\x31 q"
 
 " Active syntax 
 syntax on
@@ -17,12 +17,12 @@ set shiftwidth=0
 set noexpandtab
 
 " Line number and set color
-set number
-highlight LineNr term=NONE cterm=NONE ctermfg=DarkGrey ctermbg=NONE
+"set number
+"highlight LineNr term=NONE cterm=NONE ctermfg=DarkGrey ctermbg=NONE
 
 " Relative number
-set relativenumber
-set rnu
+"set relativenumber
+"set rnu
 
 " Search
 set ignorecase
